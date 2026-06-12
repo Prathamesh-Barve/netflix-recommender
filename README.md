@@ -41,16 +41,18 @@ The system is evaluated on **RMSE** (rating prediction accuracy) and **MAP@10** 
 ```
 netflix-recommender/
 │
-├── app.py                  # Streamlit dashboard (4 pages)
+├──netflix_recommendation.ipynb
+| app.py                  # Streamlit dashboard (4 pages)
 ├── svd_model.pkl           # Trained SVD model
 ├── ratings_sample.csv      # Sampled ratings (50K rows)
 ├── movies.csv              # Movie metadata (titles + years)
 ├── model_summary.csv       # RMSE / MAE / MAP@10 results
-├── requirements.txt        # Python dependencies
+├── requirements.txt       # Python dependencies
 └── README.md
+
 ```
 
-> **Note:** The full training notebook (`netflix_starter.ipynb`) is run in Google Colab.  
+> **Note:** The full training notebook (`netflix_recommendation.ipynb`) is run in Google Colab.  
 > Dataset: [Netflix Prize Data on Kaggle](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data)
 
 ---

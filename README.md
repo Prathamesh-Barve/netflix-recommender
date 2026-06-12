@@ -83,7 +83,7 @@ streamlit run app.py
 Go to [Kaggle Netflix Prize Data](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data) and download the dataset. Place the extracted files in a `./netflix_data/` folder.
 
 ### Step 2 — Run the notebook in Google Colab
-Open `netflix_starter.ipynb` in Google Colab (File → Upload Notebook). The notebook covers:
+Open `netflix_recommendation.ipynb` in Google Colab (File → Upload Notebook). The notebook covers:
 
 | Cell | Description |
 |---|---|
